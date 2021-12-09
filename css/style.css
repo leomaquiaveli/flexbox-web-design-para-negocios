@@ -1,0 +1,72 @@
+/* -- CONFIGURAÇÕES GLOBAIS -- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* -- CONFIGURAÇÕES GLOBAIS -- */
+
+/* -- NAV BAR -- */
+.nav-bar{
+    background-color: #010018;
+    width: 100%;
+    height: 15vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* -- NAV BAR -- */
+
+/* -- CONTAINER -- */
+.container-master{
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 80vh;
+    padding: 2%;
+    display: flex;
+
+    /*ALINHAMENTO DIREÇÃO*/
+    flex-direction: row;
+
+    /*ALINHAMENTO HORIZONTAL*/
+    justify-content: center;
+
+    /*ALINHAMENTO VERTICAL*/
+    align-items: center;
+    
+    /* QUEBRA DE LINHA */
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+/* -- CONTAINER -- */
+
+/* -- FLEX ITEMS -- */
+.flex-items{
+    background-color: #992ADE;
+    width: 60px;
+    height: 60px;
+    margin: 1%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* -- FLEX ITEMS -- */
+
+footer{
+    background-color: #010018;
+    width: 100%;
+    height: 5vh;
+}
